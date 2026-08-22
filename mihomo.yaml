@@ -29,8 +29,8 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, alterId: 0, cipher: auto, tls: true, servername: "panel.mychita.space", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "panel.mychita.space"}}, udp: false}
-  - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, alterId: 0, cipher: auto, tls: true, servername: "panel.mychita.space", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "panel.mychita.space"}}, udp: false}
+  - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, alterId: 0, cipher: auto, tls: true, servername: "frosty-wren-2c2f.nm1598996.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "frosty-wren-2c2f.nm1598996.workers.dev"}}, udp: false}
+  - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, alterId: 0, cipher: auto, tls: true, servername: "frosty-wren-2c2f.nm1598996.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "frosty-wren-2c2f.nm1598996.workers.dev"}}, udp: false}
   - name: "Nova-WARP"
     type: wireguard
     server: engage.cloudflareclient.com
@@ -43,25 +43,25 @@ proxies:
     udp: true
     mtu: 1280
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
-  - {name: "سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]", server: panel.mychita.space, port: 443, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: 360, network: xhttp, xhttp-opts: {path: /, host: panel.mychita.space, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.52.145:2053 [TROJAN]", server: 104.19.52.145, port: 2053, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: panel.mychita.space, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.56.133:443 [SS]", server: 104.17.56.133, port: 443, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: panel.mychita.space, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.39.123:2083 [VLESS]", server: 162.159.39.123, port: 2083, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: 360, network: xhttp, xhttp-opts: {path: /, host: panel.mychita.space, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.204:2087 [TROJAN]", server: 188.164.248.204, port: 2087, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: panel.mychita.space, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.151.25:2053 [SS]", server: 104.19.151.25, port: 2053, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: panel.mychita.space, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.123.65:8443 [VLESS]", server: 104.17.123.65, port: 8443, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: 360, network: xhttp, xhttp-opts: {path: /, host: panel.mychita.space, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.103:2087 [TROJAN]", server: 91.193.58.103, port: 2087, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: panel.mychita.space, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.78.90:2096 [SS]", server: 172.67.78.90, port: 2096, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: panel.mychita.space, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.84:2053 [VLESS]", server: 108.162.198.84, port: 2053, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: 360, network: xhttp, xhttp-opts: {path: /, host: panel.mychita.space, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.171.113:443 [TROJAN]", server: 104.17.171.113, port: 443, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: panel.mychita.space, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.22.112:2083 [SS]", server: 104.17.22.112, port: 2083, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: panel.mychita.space, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.144.248:2096 [VLESS]", server: 104.19.144.248, port: 2096, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: 360, network: xhttp, xhttp-opts: {path: /, host: panel.mychita.space, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.37.37:8443 [TROJAN]", server: 162.159.37.37, port: 8443, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: panel.mychita.space, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.55.234:2087 [SS]", server: 104.19.55.234, port: 2087, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: panel.mychita.space, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.21.208:2053 [VLESS]", server: 104.17.21.208, port: 2053, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: 360, network: xhttp, xhttp-opts: {path: /, host: panel.mychita.space, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.220.161:2096 [TROJAN]", server: 104.17.220.161, port: 2096, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: panel.mychita.space, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]", server: 104.18.1.1, port: 2053, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: panel.mychita.space, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]", server: 104.18.0.0, port: 443, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: 360, network: xhttp, xhttp-opts: {path: /, host: panel.mychita.space, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]", server: frosty-wren-2c2f.nm1598996.workers.dev, port: 443, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: android, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.54.126:2053 [TROJAN]", server: 104.19.54.126, port: 2053, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.254:2087 [SS]", server: 108.162.198.254, port: 2087, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.111.64:443 [VLESS]", server: 104.17.111.64, port: 443, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: android, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.127.112:2083 [TROJAN]", server: 104.17.127.112, port: 2083, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.213:2083 [SS]", server: 8.35.211.213, port: 2083, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.175.168:443 [VLESS]", server: 104.17.175.168, port: 443, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: android, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.102:2053 [TROJAN]", server: 108.162.198.102, port: 2053, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.54.165:8443 [SS]", server: 104.17.54.165, port: 8443, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.22.92:443 [VLESS]", server: 104.17.22.92, port: 443, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: android, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.208.202:2053 [TROJAN]", server: 104.17.208.202, port: 2053, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.54.134:443 [SS]", server: 104.19.54.134, port: 443, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.61:2083 [VLESS]", server: 8.39.125.61, port: 2083, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: android, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.35.137:8443 [TROJAN]", server: 104.19.35.137, port: 8443, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.17:2096 [SS]", server: 188.164.248.17, port: 2096, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.133:2087 [VLESS]", server: 162.159.38.133, port: 2087, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: android, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.131:8443 [TROJAN]", server: 162.159.38.131, port: 8443, type: trojan, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]", server: 104.18.1.1, port: 2053, type: ss, cipher: aes-128-gcm, password: 187dfdda-8021-420f-845e-c63de5e3f9d7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]", server: 104.18.0.0, port: 443, type: vless, uuid: 187dfdda-8021-420f-845e-c63de5e3f9d7, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: android, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -72,23 +72,23 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.145:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.133:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.39.123:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.204:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.151.25:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.65:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.103:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.78.90:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.84:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.171.113:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.22.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.144.248:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.37:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.55.234:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.208:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.220.161:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.126:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.111.64:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.127.112:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.213:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.175.168:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.102:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.54.165:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.22.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.208.202:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.134:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.61:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.137:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.17:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.133:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.131:8443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: ♻️ 自动选择
@@ -97,23 +97,23 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.145:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.133:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.39.123:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.204:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.151.25:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.65:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.103:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.78.90:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.84:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.171.113:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.22.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.144.248:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.37:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.55.234:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.208:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.220.161:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.126:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.111.64:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.127.112:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.213:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.175.168:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.102:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.54.165:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.22.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.208.202:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.134:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.61:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.137:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.17:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.133:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.131:8443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: 🔯 故障转移
@@ -121,23 +121,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.145:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.133:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.39.123:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.204:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.151.25:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.65:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.103:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.78.90:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.84:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.171.113:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.22.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.144.248:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.37:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.55.234:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.208:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.220.161:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.126:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.111.64:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.127.112:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.213:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.175.168:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.102:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.54.165:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.22.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.208.202:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.134:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.61:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.137:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.17:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.133:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.131:8443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: 🔮 负载均衡
@@ -146,23 +146,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.145:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.133:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.39.123:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.204:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.151.25:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.65:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.103:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.78.90:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.84:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.171.113:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.22.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.144.248:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.37:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.55.234:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.208:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.220.161:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.126:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.111.64:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.127.112:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.213:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.175.168:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.102:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.54.165:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.22.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.208.202:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.134:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.61:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.137:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.17:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.133:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.131:8443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: 🎯 全球直连
@@ -190,23 +190,23 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.145:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.133:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.39.123:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.204:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.151.25:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.65:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.103:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.78.90:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.84:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.171.113:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.22.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.144.248:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.37:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.55.234:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.208:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.220.161:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.126:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.111.64:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.127.112:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.213:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.175.168:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.102:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.54.165:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.22.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.208.202:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.134:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.61:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.137:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.17:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.133:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.131:8443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: ☁️ CloudFlareCDN
@@ -220,23 +220,23 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.145:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.133:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.39.123:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.204:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.151.25:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.65:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.103:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.78.90:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.84:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.171.113:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.22.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.144.248:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.37:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.55.234:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.208:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.220.161:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.126:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.254:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.111.64:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.127.112:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.213:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.175.168:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.102:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.54.165:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.22.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.208.202:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.134:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.61:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.137:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.17:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.133:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.131:8443 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
 rules:
@@ -6775,6 +6775,111 @@ rules:
   - DOMAIN,picrx8i067.61y77.adobestats.io,🛑 全球拦截
   - DOMAIN,bpkh681n1.hmq9r.adobestats.io,🛑 全球拦截
   - DOMAIN,hw7w59pe.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,085ae90xd1.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,0xx2u9tqcv6.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,18nq375cve.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,19ft6401hp.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,1iopzu3le.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,1q6j4iy2d.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,1tgftrtqh.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,1uixane2usri.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,1w2yq3cc6kaq.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,25lgquqo23.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,2maarmyn4.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,30r92skes.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,39xp014nwd.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,3bghi7py1tx9.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,3jme6yg1ks.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,3jr11byl5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,400vncnjq.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,5a3sc3pzu2.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,5gr5f739.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,5luvr13t.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,61m5fy6660j.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,64ovo92n7av5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,6ko3seksm0ls.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,7bc3hz5t82aw.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,82romfuzjcm.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,8gga1crk9w26.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,8jt3ezbvh3dw.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,8noa2w1ck.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,9d25rgm2sl5p.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,9qdfx4tqz.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,amqwugiqn0d6.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,av10eej36pr4.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,b8qlmyxp6ad1.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,bptmu6m29zq5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,c959fglozl.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ce0f6jp2.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,cx5oa4pwe.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,d8y4ott2o.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,dckgkgrc88e.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,dod8nx5mmh.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,e5mfhgfwhmqp.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,efw49stxqc.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,f6jqcvibklu.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,fmnobi8yg.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,gq1kdis5llc.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,h4wsofr07f0y.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,h7nu3ixn3.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,hbpj7wsu1.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,hqb3i4cheq.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,i9x6jomh0q.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ihrziqxql4c.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,iri7gj9i.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,iwi3tdrl4.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,iz6wtmwhqqt.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,je36edga1s.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,k1lbxfvqih4.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,kh0y4tx5ylad.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,kiq4oxrl6hjw.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,km6jaoxrlt.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ltwefefeeni.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,lyllpd5q.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,m07cf6sznl.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,mab7w33fh.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,n3c0km0c.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,n3ulnzzoyiu.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ncr2ea2f.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,nleig3b7p.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,nmjye3airyi8.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,nvra1i5rcsc.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,o8jnod44h.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,oj1e2609au.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,oog6tjvah6b7.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,p7fgqkycu3sw.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,pb0emidd5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,pzrjibbm09sq.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,q3ug03wg.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,q4vdjqpj.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,q98trwtebkny.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,qnly3co4556.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,r3611bdno78r.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,r5lggki5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,tags47kn5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ts3mwug8q.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,w0yatka53.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,wdz8u5h8v88.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,xoutkxnhq.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,yd0mptfqf1.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ykekfkhgh.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ytg32shi.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,z2rei59c.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,z2xfo3f2fy.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,z862ysa4.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,za3cclgdyd0.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,zpc91ra9je.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,zs35omwv.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,zuz52eqf12.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,zwv1aalaw7e.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,g668bl5lzq.qd2w8.adobestats.io,🛑 全球拦截
+  - DOMAIN,izhszwo0my.qd2w8.adobestats.io,🛑 全球拦截
+  - DOMAIN,nwkjz1w1xa.qd2w8.adobestats.io,🛑 全球拦截
+  - DOMAIN,g668bl5lzq.68gqg.hstatic.io,🛑 全球拦截
+  - DOMAIN,r9wfhggrai.qd2w8.adobestats.io,🛑 全球拦截
+  - DOMAIN,r9wfhggrai.68gqg.hstatic.io,🛑 全球拦截
+  - DOMAIN,oithn4jbtc.qd2w8.adobestats.io,🛑 全球拦截
+  - DOMAIN,3tq4ajzff7.qd2w8.adobestats.io,🛑 全球拦截
   - DOMAIN-SUFFIX,265.com,🚀 节点选择
   - DOMAIN-SUFFIX,2mdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🚀 节点选择
@@ -8754,7 +8859,6 @@ rules:
   - IP-CIDR,8.6.112.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.20.125.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.21.10.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.21.111.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.24.87.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.27.64.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.27.66.0/23,☁️ CloudFlareCDN,no-resolve
@@ -8768,8 +8872,6 @@ rules:
   - IP-CIDR,8.39.125.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.39.204.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.39.214.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.44.61.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.47.13.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.47.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.131.204.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.227.37.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8793,7 +8895,6 @@ rules:
   - IP-CIDR,45.157.17.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.192.223.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.192.224.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,45.195.14.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.195.153.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.196.29.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.198.114.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8833,6 +8934,7 @@ rules:
   - IP-CIDR,82.22.16.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.25.20.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.26.156.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,82.47.124.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.109.153.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.139.216.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,87.86.16.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8840,7 +8942,6 @@ rules:
   - IP-CIDR,88.216.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.46.251.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.106.90.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,89.249.200.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.206.71.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.213.221.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.224.186.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8906,10 +9007,10 @@ rules:
   - IP-CIDR,104.22.134.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.136.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.140.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.148.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.150.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.155.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.156.0/22,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.160.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.162.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.165.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.167.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.168.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8921,6 +9022,8 @@ rules:
   - IP-CIDR,104.22.186.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.190.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.192.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.219.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.220.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.160.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.176.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.178.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8942,13 +9045,7 @@ rules:
   - IP-CIDR,104.27.0.0/17,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.27.192.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.28.0.0/16,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.9.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.45.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.77.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.92.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.29.111.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.114.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.121.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.29.124.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.29.128.0/18,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.30.0.0/19,☁️ CloudFlareCDN,no-resolve
@@ -8980,6 +9077,7 @@ rules:
   - IP-CIDR,108.162.248.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,108.162.250.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,109.234.211.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,122.152.164.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.108.75.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.253.173.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.253.174.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9011,11 +9109,13 @@ rules:
   - IP-CIDR,143.14.142.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,143.14.224.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,143.14.251.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,144.56.84.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.208.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.211.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.212.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.214.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.208.122.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,144.225.90.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,145.63.64.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,145.224.255.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,146.19.108.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9291,6 +9391,7 @@ rules:
   - IP-CIDR,172.69.72.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.74.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.79.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.69.80.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.82.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.86.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.88.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9458,6 +9559,7 @@ rules:
   - IP-CIDR,178.83.176.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,178.93.117.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,178.94.249.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,180.255.25.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,181.215.196.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,182.23.210.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.7.240.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9466,6 +9568,7 @@ rules:
   - IP-CIDR,185.38.25.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.41.148.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.60.251.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,185.106.205.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.132.85.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.132.86.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.133.172.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9505,7 +9608,6 @@ rules:
   - IP-CIDR,194.34.84.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.34.88.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.34.93.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,194.41.114.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.77.235.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.152.130.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,195.66.29.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9538,10 +9640,12 @@ rules:
   - IP-CIDR,199.65.62.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,199.68.16.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,200.69.28.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,200.218.32.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,202.27.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,202.49.114.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.5.33.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.15.65.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,203.116.108.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.117.8.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.117.53.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.120.52.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9601,6 +9705,7 @@ rules:
   - IP-CIDR,104.23.64.0/19,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,141.101.64.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,141.101.91.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,162.159.83.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.32.0/19,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.64.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.143.0/24,☁️ CloudFlareCDN,no-resolve
