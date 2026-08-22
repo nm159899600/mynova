@@ -36,32 +36,32 @@ proxies:
     server: engage.cloudflareclient.com
     port: 2408
     ip: 172.16.0.2/32
-    ipv6: "2606:4700:110:8e0b:c3b3:83a6:47ae:44f5/128"
-    private-key: "l94/OhYaY3PW1LJzMVAItuJgXlNg9esBX/LsYgnqWaE="
+    ipv6: "2606:4700:110:8518:6e3e:8e4a:23e6:e924/128"
+    private-key: "P9kVz3uyp63cSQ0XWLDQx/GIXcSaxAFKGI5RWie6Bbg="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    reserved: "qSG2"
+    reserved: "4LFG"
     udp: true
     mtu: 1280
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
-  - {name: "سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]", server: panel.mychita.space, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.212.39:2053 [VLESS]", server: 104.17.212.39, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.65.214:8443 [VLESS]", server: 172.67.65.214, port: 8443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.52.198:2087 [VLESS]", server: 104.19.52.198, port: 2087, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.148.49:2083 [VLESS]", server: 104.19.148.49, port: 2083, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.159:2087 [VLESS]", server: 108.162.198.159, port: 2087, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.239:2096 [VLESS]", server: 108.162.198.239, port: 2096, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.53.247:2053 [VLESS]", server: 104.17.53.247, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.105:2087 [VLESS]", server: 91.193.58.105, port: 2087, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.230:2053 [VLESS]", server: 108.162.198.230, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.102.209:8443 [VLESS]", server: 104.17.102.209, port: 8443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.166.236:2096 [VLESS]", server: 104.17.166.236, port: 2096, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.147.59:2087 [VLESS]", server: 104.17.147.59, port: 2087, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.50.216:2053 [VLESS]", server: 104.19.50.216, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.21.16:443 [VLESS]", server: 104.17.21.16, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.160:2083 [VLESS]", server: 91.193.58.160, port: 2083, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.53.136:2083 [VLESS]", server: 104.17.53.136, port: 2083, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]", server: 104.18.0.0, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]", server: 104.18.1.1, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: safari, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]", server: panel.mychita.space, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.155.186:2053 [VLESS]", server: 104.17.155.186, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.59.222:2083 [VLESS]", server: 91.193.59.222, port: 2083, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.71.255:2096 [VLESS]", server: 172.67.71.255, port: 2096, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.10:8443 [VLESS]", server: 8.39.125.10, port: 8443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.92:2087 [VLESS]", server: 8.39.125.92, port: 2087, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.6.185:2096 [VLESS]", server: 104.26.6.185, port: 2096, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.242.217:2053 [VLESS]", server: 104.16.242.217, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.216.109:443 [VLESS]", server: 104.17.216.109, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.249:8443 [VLESS]", server: 8.39.125.249, port: 8443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.150.92:443 [VLESS]", server: 104.17.150.92, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.144.78:2096 [VLESS]", server: 104.19.144.78, port: 2096, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.59.224:2096 [VLESS]", server: 91.193.59.224, port: 2096, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.121:2087 [VLESS]", server: 188.164.248.121, port: 2087, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.55.202:2087 [VLESS]", server: 104.19.55.202, port: 2087, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.148.126:2053 [VLESS]", server: 104.19.148.126, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.0.24:443 [VLESS]", server: 172.66.0.24, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]", server: 104.18.0.0, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]", server: 104.18.1.1, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: panel.mychita.space, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: panel.mychita.space}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -73,22 +73,22 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.212.39:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.214:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.198:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.148.49:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.159:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.239:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.247:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.230:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.102.209:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.166.236:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.147.59:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.216:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.16:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.160:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.136:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.155.186:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.222:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.71.255:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.10:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.6.185:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.242.217:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.216.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.249:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.150.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.144.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.224:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.202:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.126:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.24:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
   - name: ♻️ 自动选择
@@ -98,22 +98,22 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.212.39:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.214:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.198:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.148.49:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.159:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.239:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.247:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.230:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.102.209:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.166.236:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.147.59:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.216:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.16:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.160:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.136:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.155.186:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.222:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.71.255:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.10:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.6.185:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.242.217:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.216.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.249:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.150.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.144.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.224:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.202:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.126:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.24:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
   - name: 🔯 故障转移
@@ -122,22 +122,22 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.212.39:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.214:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.198:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.148.49:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.159:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.239:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.247:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.230:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.102.209:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.166.236:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.147.59:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.216:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.16:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.160:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.136:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.155.186:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.222:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.71.255:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.10:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.6.185:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.242.217:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.216.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.249:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.150.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.144.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.224:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.202:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.126:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.24:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
   - name: 🔮 负载均衡
@@ -147,22 +147,22 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.212.39:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.214:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.198:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.148.49:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.159:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.239:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.247:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.230:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.102.209:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.166.236:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.147.59:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.216:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.16:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.160:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.136:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.155.186:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.222:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.71.255:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.10:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.6.185:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.242.217:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.216.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.249:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.150.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.144.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.224:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.202:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.126:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.24:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
   - name: 🎯 全球直连
@@ -191,22 +191,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.212.39:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.214:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.198:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.148.49:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.159:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.239:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.247:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.230:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.102.209:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.166.236:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.147.59:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.216:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.16:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.160:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.136:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.155.186:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.222:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.71.255:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.10:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.6.185:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.242.217:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.216.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.249:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.150.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.144.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.224:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.202:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.126:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.24:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
   - name: ☁️ CloudFlareCDN
@@ -221,22 +221,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy panel.mychita.space:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.212.39:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.65.214:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.198:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.148.49:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.159:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.239:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.247:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.105:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.230:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.102.209:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.166.236:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.147.59:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.216:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.21.16:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.58.160:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.53.136:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.155.186:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.222:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.71.255:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.10:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.6.185:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.242.217:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.216.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.249:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.150.92:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.144.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.59.224:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.121:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.55.202:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.126:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.66.0.24:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
 rules:
