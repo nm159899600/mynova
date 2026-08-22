@@ -43,25 +43,25 @@ proxies:
     udp: true
     mtu: 1280
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
-  - {name: "سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]", server: frosty-wren-2c2f.nm1598996.workers.dev, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: ios, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.144:2087 [TROJAN]", server: 104.18.33.144, port: 2087, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.155.175:2096 [SS]", server: 104.16.155.175, port: 2096, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.59.169:443 [VLESS]", server: 104.17.59.169, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: ios, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.222.59:2053 [TROJAN]", server: 104.17.222.59, port: 2053, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.162.131:8443 [SS]", server: 104.17.162.131, port: 8443, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.115:2083 [VLESS]", server: 104.18.33.115, port: 2083, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: ios, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.33.250:2083 [TROJAN]", server: 104.19.33.250, port: 2083, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.31.109:443 [SS]", server: 104.17.31.109, port: 443, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.14:2087 [VLESS]", server: 162.159.38.14, port: 2087, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: ios, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.123.208:2087 [TROJAN]", server: 104.17.123.208, port: 2087, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.48.189:8443 [SS]", server: 104.19.48.189, port: 8443, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.50.201:2083 [VLESS]", server: 104.19.50.201, port: 2083, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: ios, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.235:2096 [TROJAN]", server: 104.18.33.235, port: 2096, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.1.189:8443 [SS]", server: 172.66.1.189, port: 8443, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.113:2083 [VLESS]", server: 108.162.198.113, port: 2083, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: ios, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.121.109:443 [TROJAN]", server: 104.17.121.109, port: 443, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]", server: 104.18.0.0, port: 443, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]", server: 104.18.1.1, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: ios, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]", server: frosty-wren-2c2f.nm1598996.workers.dev, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.60:2083 [TROJAN]", server: 104.18.33.60, port: 2083, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.151.90:2087 [SS]", server: 104.16.151.90, port: 2087, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.248.184:2096 [VLESS]", server: 104.16.248.184, port: 2096, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.78.210:2096 [TROJAN]", server: 172.67.78.210, port: 2096, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.138:443 [SS]", server: 104.18.33.138, port: 443, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.118.52:2096 [VLESS]", server: 104.17.118.52, port: 2096, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.89:2083 [TROJAN]", server: 108.162.198.89, port: 2083, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.30.106:2087 [SS]", server: 104.17.30.106, port: 2087, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.40.30:2053 [VLESS]", server: 162.159.40.30, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.115.15:2096 [TROJAN]", server: 104.17.115.15, port: 2096, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.249.144:2096 [SS]", server: 104.16.249.144, port: 2096, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.49.78:2096 [VLESS]", server: 104.19.49.78, port: 2096, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.103.99:8443 [TROJAN]", server: 104.17.103.99, port: 8443, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.174.181:8443 [SS]", server: 104.17.174.181, port: 8443, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.158.95:2053 [VLESS]", server: 104.16.158.95, port: 2053, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.201:2096 [TROJAN]", server: 104.18.33.201, port: 2096, type: trojan, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, sni: frosty-wren-2c2f.nm1598996.workers.dev, skip-cert-verify: false}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]", server: 104.18.1.1, port: 2053, type: ss, cipher: aes-128-gcm, password: 6dd9db64-20d9-4d33-8750-72361ff98a3f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-wren-2c2f.nm1598996.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]", server: 104.18.0.0, port: 443, type: vless, uuid: 6dd9db64-20d9-4d33-8750-72361ff98a3f, tls: true, skip-cert-verify: false, servername: frosty-wren-2c2f.nm1598996.workers.dev, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /, host: frosty-wren-2c2f.nm1598996.workers.dev, mode: stream-one}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -73,24 +73,24 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.144:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.155.175:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.59.169:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.222.59:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.162.131:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.115:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.250:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.109:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.208:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.48.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.201:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.235:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.113:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.121.109:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.151.90:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.248.184:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.78.210:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.138:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.52:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.89:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.30.106:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.40.30:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.115.15:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.249.144:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.49.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.103.99:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.181:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.158.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.201:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -98,48 +98,48 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.144:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.155.175:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.59.169:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.222.59:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.162.131:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.115:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.250:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.109:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.208:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.48.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.201:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.235:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.113:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.121.109:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.151.90:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.248.184:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.78.210:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.138:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.52:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.89:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.30.106:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.40.30:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.115.15:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.249.144:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.49.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.103.99:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.181:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.158.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.201:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.144:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.155.175:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.59.169:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.222.59:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.162.131:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.115:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.250:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.109:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.208:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.48.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.201:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.235:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.113:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.121.109:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.151.90:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.248.184:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.78.210:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.138:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.52:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.89:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.30.106:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.40.30:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.115.15:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.249.144:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.49.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.103.99:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.181:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.158.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.201:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -147,24 +147,24 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.144:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.155.175:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.59.169:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.222.59:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.162.131:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.115:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.250:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.109:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.208:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.48.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.201:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.235:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.113:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.121.109:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.151.90:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.248.184:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.78.210:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.138:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.52:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.89:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.30.106:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.40.30:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.115.15:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.249.144:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.49.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.103.99:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.181:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.158.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.201:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -191,24 +191,24 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.144:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.155.175:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.59.169:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.222.59:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.162.131:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.115:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.250:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.109:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.208:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.48.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.201:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.235:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.113:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.121.109:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.151.90:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.248.184:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.78.210:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.138:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.52:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.89:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.30.106:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.40.30:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.115.15:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.249.144:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.49.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.103.99:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.181:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.158.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.201:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -221,24 +221,24 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy frosty-wren-2c2f.nm1598996.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.144:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.155.175:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.59.169:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.222.59:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.162.131:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.115:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.250:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.31.109:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.123.208:2087 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.48.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.50.201:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.33.235:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.189:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.113:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.121.109:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.60:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.151.90:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.248.184:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.78.210:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.138:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.118.52:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 108.162.198.89:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.30.106:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.40.30:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.115.15:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.249.144:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.49.78:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.103.99:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.181:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.158.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.201:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
 rules:
 # SANCTION BYPASS RULES
   - DOMAIN-SUFFIX,intel.com,DIRECT
